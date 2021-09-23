@@ -175,3 +175,107 @@
 
 // a.innerHTML = z;
 
+
+// var obj = {name: "chetan", subject: "JavaScript"};
+// console.log(obj);
+
+// var obj = new Object();
+// obj.name = "chetan";
+// obj.subject = "Javascript";
+
+// console.log(obj);
+
+// function person(fname,age,city)
+// {
+//     this.firstname = fname;
+//     this.age = age;
+//     this.city = city;
+// }
+
+// var father = new person("chetan","30","Bangalore");
+// var mother = new person("Vijayalakshmi",61,"Bangalore");
+
+// document.getElementById("data").innerHTML = father.firstname+" and age will be "+father.age+" stayed in "+father.city;
+
+// document.getElementById("data1").innerHTML = mother.firstname+" and age will be "+mother.age+" stayed in "+mother.city;
+
+
+// var obj = { name:"chetan", subject:"Jvascript", City:"Bangalore", state:"Karnataka"};
+// //console.log(obj.city); //Key is case Sensitive
+// //console.log(City);
+// console.log(typeof obj);
+
+// var txt = "";
+
+// for (x in obj) {
+//     console.log(x);
+//     console.log(obj[x]);
+//     console.log(x +"=" + obj[x]);
+//     document.getElementById("data").innerHTML += x+ " =" + obj[x]+"<br>";
+
+//var k = Object.keys(obj);
+
+// console.log(k); 
+
+// var k = Object.values(obj);
+
+// console.log(k);
+    
+//     txt += x+ " =" + obj[x]+ " <br>";
+// }
+
+//   document.getElementById("data").innerHTML = txt ;
+
+
+// var obj = [  
+//     { name:"chetan", subject:"Jvascript", City:"Bangalore", state:"Karnataka"},
+//     { name:"Kotresh", subject:"Jvascript", City:"Bangalore", state:"Karnataka"},
+//     { name:"Praveen", subject:"Jvascript", City:"Bangalore", state:"Karnataka"},
+//     { name:"shrinivas", subject:"Jvascript", City:"Bangalore", state:"Karnataka"}
+// ];
+
+// console.log(obj);
+// console.log(typeof obj);
+
+// var k = Object.keys(obj[0]);
+
+// console.log(k); 
+
+// var k = Object.values(obj[2]);
+
+// console.log(k); 
+
+// var records = "";
+
+// var cols = Object.keys(obj[0]);
+
+// records += "<tr>";
+
+//     for (var i = 0; i < obj.length; i++) {
+//         records += "<th>"+cols[i].toUpperCase()+"</th>";
+//     }
+
+// records += "</tr>";
+
+// for (var k = 0; k < obj.length; k++) {
+//     records += "<tr>";
+//         for(var j = 0; j < cols.length; j++) {
+//             records += "<td>"+obj[k][cols[j]]+"</td>";
+//         }
+//     records += "</tr>";
+// }
+
+
+
+
+
+
+
+
+document.getElementById("records").innerHTML = records;
+
+
+
+
+
+
