@@ -265,14 +265,13 @@
 //     records += "</tr>";
 // }
 
+// document.getElementById("records").innerHTML = records;
 
+var arr = [10,20,30,40,50,45,3,53];
 
-
-
-
-
-
-document.getElementById("records").innerHTML = records;
+for (var i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+}
 
 
 
